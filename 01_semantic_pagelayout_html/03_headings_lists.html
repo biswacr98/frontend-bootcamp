@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Headings and Lists</title>
+</head>
+<body>
+    <h1>Heading Level 1</h1>
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+    <h5>Heading Level 5</h5>
+    <h6>Heading Level 6</h6>
+    <ul>
+        <li>Unordered List Item 1</li>
+        <li>Unordered List Item 2</li>
+        <li>Unordered List Item 3</li>
+    </ul>
+    <ol>
+        <li>Ordered List Item 1</li>
+        <li>Ordered List Item 2</li>
+        <li>Ordered List Item 3</li>
+    </ol>
+
+    <h1>Grocery Items</h1>
+
+    <!-- Disc Bullets-->
+     <ul type="disc">
+        <li>Butter</li>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Cereal</li>
+     </ul>
+
+     <!-- Square bullets-->
+     <ul type="square">
+        <li>Butter</li>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Cereal</li>
+     </ul>
+
+     <h1>Brushing Instructions</h1>
+
+     <!-- Uppercase Roman Numerals-->
+      <ol type="I">
+        <li>Acquire toothbrush and toothpaste</li>
+        <li>Squeeze a small amount of paste onto the toothbrush bristles</li>
+        <li>Lightly rinse brush + paste with water</li>
+        <li>Move brush against teeth in a back and forth motion</li>
+      </ol>
+
+        <!-- Lowercase Roman Numerals-->
+        <ol type="i">
+            <li>Acquire toothbrush and toothpaste</li>
+            <li>Squeeze a small amount of paste onto the toothbrush bristles</li>
+            <li>Lightly rinse brush + paste with water</li>
+            <li>Move brush against teeth in a back and forth motion</li>
+        </ol>
+
+        <!-- Default numeric scheme, starting at 5 -->
+         <ol type="1" start="5">
+            <li>Acquire toothbrush and toothpaste</li>
+            <li>Squeeze a small amount of paste onto the toothbrush bristles</li>
+            <li>Lightly rinse brush + paste with water</li>
+            <li>Move brush against teeth in a back and forth motion</li>
+         </ol>
+</body>
+</html>
+
+<!--
+Headings:
+
+The HTML standard has h1 element as well as 5 additional text heading elements, named h2 to h6.
+Heading elements should not be used to manipulate the font size of an heading.
+The levels represent semantically the difference between a main header, sub-header etc.
+An h2 element should be used for a header one below an h1 element, an h3 element should be used a level below h2 and so on.
+
+-->
+
+<!--
+Lists
+
+There are two types of lists in HTML, ordered and unordered lists.
+
+Unordered Lists: An unordered list is a list of items that have no numerical order. The list items are marked with bullets. We use the ul element to create an unordered list, with each list item marked with the li element.
+
+Ordered Lists: An ordered list is a list of items that have a numerical order. The list items are marked with numbers. We use the ol element to create an ordered list, with each list item marked with the li element.
+-->
+
+<!--
+List element attributes: type and start
+
+The type attribute allows us to change the style of either the bullets for unordered lists or the numbering scheme for ordered lists. Unordered list type values include circle, disc and square.
+
+Ordered list type values can be used to change the numbering scheme, and include:
+- 1: Default numeric scheme
+- I: Uppercase Roman numerals
+- i: Lowercase Roman numerals
+- A: Uppercase letters
+- a: Lowercase letters
+
+Ordered lists also have a start attribute that allows us to change the starting number of the list at a value other than the default of 1.
+-->

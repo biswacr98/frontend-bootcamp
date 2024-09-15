@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML 5 Semantics</title>
+</head>
+<body>
+    <p>In the HTML4 standard, several elements were provided to provide font stylization,
+        such as <i>italicized text</i> and <b>bold text</b>.
+    </p>
+    <div>
+        <p>With HTML 5, many elements were introduced to indiciate meaning of the content in a better way.</p>
+        <p>The <code>em</code> element <em>indicates emphasized</em> content.</p>
+        <p>The <code>strong</code> element <strong>indicates strongly emphasized</strong> content.</p>
+    </div>
+
+    <header> <!--main header. can contain logos, large headings. remains consistent across pages and often contain navigational elements-->
+        <hgroup> <!-- This element is used to group heading elements that are semantically part of same heading.-->
+            <h1>My Amazing Website</h1>
+            <h2>More Informatuin about my website</h2>
+        </hgroup>
+
+        <nav> <!-- This element is used to contain navigational elements to navigate to different parts of your page.-->
+            <!--Navigational anchor elements are often wrapped in an unordered list-->
+            <ul>
+                <li><a href="#about">About Me</li>
+                <li><a href="#contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <article> <!-- house individual pieces of content that are unique to an individual page. Blog entry, news article etc. -->
+        <h1>How to Make Omelettes</h1> <!--main heading for the article-->
+        <section> <!--section element is used to contain related content together.-->
+            <h2>Overview</h2> <!--subheading for the section-->
+            <!-- section content -->
+        </section> <!--Break up content in an article element into semantically discrete components. -->
+        <section>
+            <h2>Ingredients</h2>
+            <!-- section content -->
+        </section>
+        <section>
+            <h2>Instructions</h2>
+            <!-- section content -->
+        </section> <!-- Place your content into semantic groupings that don't fit description of any other semantic element.-->
+    </article>
+
+
+    <!--time of an event-->
+    <p>The party begins at <time datetime="19:00">seven o' clock</time>!</p>
+
+    <!--date of publication-->
+    <h1>My Blog Entry</h1>
+    <h2><time datetime="2024-09-08">September 8, 2024</time></h2>
+
+    <footer> <!--footer element is used to contain information about the author, copyright information, etc.-->
+        <h3>&copy; My Company Name</h3>
+    </footer>
+</body>
+</html>
+
+<!--
+<aside> used to houuse information that is not part of your main content, but is in someway related to it.
+    - used for things like supporting information in an article, or a sidebar with navigational elements.
+-->

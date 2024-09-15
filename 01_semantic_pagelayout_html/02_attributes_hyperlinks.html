@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Attributes And Hyperlinks</title>
+</head>
+<body>
+    <h2 title="This is a sub-heading">Hello, H2 Heading!</h2><!-- title attribute of h2.-->
+    <p title="My Paragraph" style="color:blue">Hello, Paragraph</p> <!-- title and style attributes of p.-->
+    <a href="http://google.com">Google</a>
+    <a href="01_intro.html">Intro</a> <!-- Relative URL path. -->
+    <a href="exercises/01_exercise.html">Exercise 1</a> <!-- Relative URL path. -->
+</body>
+</html>
+
+<!--
+General structure:
+<tagname attribute_name="attribute_value">Content</tagname>
+
+The attribute name is always followed by an equal sign and the attribute value is always enclosed in double quotes.
+There are no spaces between the attribute name, the equal sign, and the attribute value.
+-->
+
+<!--
+Anchor Elements/ Hyperlinks:
+
+Using the anchor tag, we can connect a HTML page to another HTML page or a resource on the internet.
+
+The href attribute refers to Hypertext Reference, whose value is the Uniform Resource Identifier (URI) of the page or resource we want to link to.
+
+The href attribute can also refer to things like:
+- an email address (mailto:someone@gmail.com)
+- a phone number (tel:1234567890)
+- documents/files (give url of the file instead of a web page)
+- another different location on the same web page the browser is currently on (use # followed by the id of the element)
+-->
+
+<!--
+Absolute URL Path:
+
+An absolute URL points to a single address that will direct to the same page regardless of where the original page is coming from.
+
+Looks like: http://www.github.com/google
+
+Three parts:
+
+1. Protocol: http://, https://, ftp://, file:// etc.
+2. Domain: www.github.com (the address of the server or the name of the website)
+3. Path: The directory or folder we wish to navigate to. This field is not always necessary and generally allows to navigate to a more specific portion of a domain. (in this case, google's profile on github)
+
+Absolute URL will not change its destination if used on different devices/browsers.
+
+-->
+
+<!--
+Relative URL Path:
+
+Relative URLs provide less information than absolute URLss and generally refer to pages on the same domain.
+Useful when we start to deal with multiple web pages on your site, and want a way to navigate between them.
+
+-->

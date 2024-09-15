@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>id vs class attributes</title>
+    <style>
+        .bordered {
+            border: 1px solid black;
+        }
+
+        .red{
+            border-color: red;
+            color: red;
+
+        }
+
+        .blue{
+            border-color: blue;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- id elements can be used to identify specific elememnts on page-->
+     <h1 id="pageTitle">id and class attributes</h1>
+
+     <!--class elements can be used to identify multiple elements that have similar characteristics-->
+     <p class="bordered">This element has a border</p>
+
+     <!--the same class value can be used on multiple elements-->
+     <p class="bordered">This element also has a border </p>
+
+     <!-- we can include multiple class values for a single element-->
+      <p class="red bordered">This element has red text and a border</p>
+      <p class="blue bordered">This element has blue text and a border</p>
+
+</body>
+</html>
+
+<!--
+The id attribute:
+- The id attribute is used to identify a specific element on a page.
+- The id attribute gives a unique identifier to an element.
+- This identifier can be used to style the element with CSS or to manipulate the element with JavaScript.
+- An id value should only be used for a single element. We can get unexpected behaviour if we use the same id value for multiple elements.
+- An id value must not contain any whitespace.
+- A single element cannot have multiple id values.
+
+
+The class attribute:
+- The class attriibute is similar to the id attribute in that it is used to identify specific elements.
+- The same class value can be used on multiple elements.
+- An element can have multiple class values, seperated by whitespaces.
+-->
